@@ -1,11 +1,13 @@
-/* barra de navegacion */
-
+/* Barra de navegación */
 .navbar {
     padding: 2rem;
     background-color: #f5f6f7;
 }
 
-.navbar-collaps {
+/* Corrección del nombre de clase y mejora del flex */
+.navbar-collapse {
+    display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap; /* Para que se acomode en pantallas pequeñas */
 }
